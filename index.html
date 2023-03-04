@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mega Countdown</title>
+    <title>Countdown</title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -18,28 +18,28 @@
     <div class="container">
       <!-- Input -->
       <div class="input-container" id="input-container">
-        <h1>Custom Countdown</h1>
+        <h1>Enter Countdown </h1>
         <form class="form" id="countdownForm">
-          <label for="title">Title</label>
+          <label for="title">Countdown Name:</label>
           <input
             type="text"
             id="text"
             placeholder="What are you counting down to?"
           />
-          <label for="date-picker">Select a Date</label>
+          <label for="date-picker">Pick a Date</label>
           <input type="date" id="date-picker" />
           <button type="submit">Submit</button>
         </form>
       </div>
-      
+
       <!-- Countdown -->
       <div class="countdown" id="countdown" hidden>
-        <h1 id="countdown-title">Countdown Title is here!</h1>
+        <h1 id="countdown-title"></h1>
         <ul>
-          <li><span>3</span>Days</li>
-          <li><span>6</span>Hours</li>
-          <li><span>9</span>Minutes</li>
-          <li><span>12</span>Seconds</li>
+          <li><span></span>Days</li>
+          <li><span></span>Hours</li>
+          <li><span></span>Minutes</li>
+          <li><span></span>Seconds</li>
         </ul>
         <button id="countdown-button">Reset</button>
       </div>
